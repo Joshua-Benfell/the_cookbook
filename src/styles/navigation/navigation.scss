@@ -1,0 +1,19 @@
+@import "./bottomNavigation.scss";
+
+.topNavigation, .bottomNavigation {
+    position: absolute;
+    width: 100%;
+    display: flex;
+
+    .screenReader-text {
+        display: none;            
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

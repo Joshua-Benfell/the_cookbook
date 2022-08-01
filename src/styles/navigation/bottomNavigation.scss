@@ -1,0 +1,35 @@
+@import "../colours";
+@import "../variables";
+
+.bottomNavigation {
+    justify-content: space-between;
+    padding: 0 1em;
+    box-sizing: border-box;
+    bottom: 0;
+    margin-bottom: 0.5em;
+    
+    .pageForwardButtonIcon, .pageBackButtonIcon {
+        border: $colour-main-font solid;
+        border-width: 0 0.5em 0.5em 0;
+        height: 0.2em;
+        width: 0.2em;
+        padding: 0.4em;
+        border-radius: 0 2px 2px 2px;
+        display: block;
+    }
+
+    .pageForwardButtonIcon {
+        transform: rotate(-45deg);
+    }
+
+    .pageBackButtonIcon {
+        transform: rotate(135deg);
+    }
+
+    .pageBackButton, .pageForwardButton {
+        font-size: $base-page-font-size;
+        height: $min-button-dimensions;
+        width: $min-button-dimensions;
+        box-sizing: border-box;
+    }
+}
