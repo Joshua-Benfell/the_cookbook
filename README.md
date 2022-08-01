@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[Colors](https://coolors.co/e5e1ee-f6feaa-fce694-ac7bb3-373737)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
